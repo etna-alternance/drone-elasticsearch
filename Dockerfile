@@ -1,4 +1,4 @@
-FROM dockerfile/elasticsearch
+FROM elasticsearch:1.5
 
 ENV TZ Europe/Paris
 
