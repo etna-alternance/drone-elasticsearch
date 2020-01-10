@@ -1,6 +1,8 @@
-FROM elasticsearch:1.7
+FROM elasticsearch:7.5.1
 
 ENV TZ Europe/Paris
+ENV discovery.type single-node
+
 
 # RUN echo "script.inline: on"                                        >> /usr/share/elasticsearch/config/elasticsearch.yml
 # RUN echo "script.indexed: on"                                       >> /usr/share/elasticsearch/config/elasticsearch.yml
